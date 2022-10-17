@@ -1,0 +1,181 @@
+body
+{
+    background: #ffffff;
+
+
+}
+.box-area
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+ 
+}
+
+.single-box
+{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: rgb(238, 228, 228);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    transition: .3s;
+    border-radius: 20px;
+}
+.title
+{
+    margin-top: 130px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+
+
+}
+.title h1
+{
+text-transform: uppercase;
+font-size: 35px;
+color: #88941e;
+
+}
+
+.title h1::after
+{
+	content: "";
+	height: 5px;
+	width: 100px;
+	background-color: #c4d156;
+	border-radius: 25px;
+	display: block;
+	margin: auto;
+
+}
+
+
+.img-area
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border: 6px solid #ddd;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    padding: 20px;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+}
+.single-box:nth-child(1) .img-area
+{
+    background-image: url(../images/service1.jpg);
+}
+.single-box:nth-child(2) .img-area
+{
+    background-image: url(../images/service2.jpg);
+}
+.single-box:nth-child(3) .img-area
+{
+    background-image: url(../images/service3.jpg);
+}
+.single-box:nth-child(4) .img-area
+{
+    background-image: url(../images/service4.jpg);
+}
+.single-box:nth-child(5) .img-area
+{
+    background-image: url(../images/service5.jpg);
+}
+.single-box:nth-child(6) .img-area
+{
+    background-image: url(../images/service6.jpg);
+}
+.header-text
+{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.img-text
+{
+    font-family: Poppins;
+    padding-top: 10px;
+}
+.img-text p
+{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.container
+{
+    float: left;
+   margin-top: 40px;
+   background-color: rgb(230, 233, 218);
+   border-radius: 5px;
+   text-align: center;
+   margin-left: 520px;
+}
+.container input 
+{
+    width: 400px;
+    padding: 3px;
+    border-width: 0.5rem;
+}
+.container .btn-service
+{
+    width: 100px;
+    padding: 6px;
+    background-color: rgb(223, 53, 11);
+    border-radius: 5px
+    
+}
+@media(max-width: 1200px)
+{
+    .container
+    {
+        margin-left: 300px;
+    }
+	.container input
+	{
+	width: 300px;
+	}
+    .container .btn-service
+{
+    width: 80px;
+    padding: 3px;
+    border-radius: 5px
+    
+}
+}
+@media(max-width: 700px)
+{
+    .container
+    {
+        margin-left: 180px;
+    }
+	.container input
+	{
+	width: 100px;
+	}
+    .container .btn-service
+{
+    width: 80px;
+    padding: 3px;
+    border-radius: 5px
+    
+}
+}

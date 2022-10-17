@@ -1,0 +1,132 @@
+*{  
+     padding: 0;  
+     margin: 0;  
+     box-sizing: border-box;  
+}  
+body{  
+     width: 100%;  
+     min-height: 100vh;  
+     background: linear-gradient(120deg,#839099, #95dd5a);
+}  
+.container{  
+     max-width: 900px;  
+     margin: 30px auto;  
+     width: 100%;  
+     padding-left: 80px;
+}  
+table{  
+     border-collapse: collapse;  
+     width: 100%;  
+}  
+table th{  
+     background-color: rgb(77, 56, 56);  
+     color: #fff;  
+     padding: 10px;  
+}  
+table td{  
+     padding: 12px;  
+     color: #fff;  
+     font-size: 1em;  
+     text-align: center;  
+}  
+table tr:nth-child(odd){  
+     background-color: #797676;  
+}  
+.hh
+{
+     text-align: center;
+     padding-top: 50px;
+     color: #fff;
+
+}
+
+.btn
+{
+  display: block;
+  margin-left: 35px;
+  width: 90px;
+  height: 28px;
+  border: none;
+  background-color: #8dc8e6;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  transition: .3s linear;
+  text-decoration: none;
+  padding: 1.5%;
+}
+
+.btn:hover {
+  transform: rotateX(15deg);
+  box-shadow: 0 15px 15px #00a8ff;
+}
+
+/*nav bar*/
+
+body{
+     box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ /* Sidebar start here  */
+ .sidebar{
+     position: fixed;
+     background: #5e5f4e;
+     width: 250px;
+     height: 100%;
+     top: 0;
+     left: 0;
+     z-index: 1;
+ }
+ 
+ .sidebar h2{
+     text-align: center;
+     font-size: 20px;
+     text-transform: uppercase;
+     color: #ffffff;
+     background: #67d44c;
+     padding: 20px;
+     font-weight: bold;
+     
+ }
+ 
+ 
+ .sidebar ul li {
+     margin: 25px 0;
+ }
+ 
+ .sidebar ul li a{
+     color: #ffffff;
+     padding: 0 30px;
+     text-decoration: none;
+ 
+ }
+ .sidebar ul li a:hover{
+     color: #000000;
+     margin-left: 20px;
+     transition: 0.4s;
+ }
+ 
+ /* Sidebar end Here  */
+ 
+ /* Main Content Section Start Here  */
+ 
+ .main{
+     margin-left: 200px;
+     padding: 5px;
+ }
+ 
+ .main h2{
+     margin-top: 20px;
+ }
+ 
+ /*user table page*/
+ .hed
+ {
+     text-align: center;
+     margin-bottom: 20px;
+     text-transform: uppercase;
+     color: #fff;
+ }

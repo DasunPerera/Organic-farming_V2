@@ -1,0 +1,128 @@
+*{  
+    padding: 0;  
+    margin: 0;  
+    box-sizing: border-box;  
+}  
+body{  
+    width: 100%;  
+    min-height: 100vh;  
+    background: linear-gradient(120deg,#c9dbe7, #736579);
+}  
+.container{  
+    max-width: 1150px;  
+    margin: 50px auto;  
+    width: 100%;  
+    padding-left: 100px;
+}  
+table{  
+    border-collapse: collapse;  
+    width: 100%;  
+}  
+table th{  
+    background-color: rgb(102, 87, 54);  
+    color: #ccc;  
+    padding: 10px;  
+}  
+table td{  
+    padding: 12px;  
+    color: rgb(226, 213, 213);  
+    font-size: 1em;  
+    text-align: center;  
+}  
+table tr:nth-child(odd){  
+    background-color: #746666;  
+}  
+
+.btn-delete
+{
+    
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+    padding: 1.5%;
+    background: linear-gradient(-135deg, #becbd4, #464347);
+}
+
+.btn-delete:hover
+{
+    background-color: aqua;
+}
+
+
+
+/* Admin Navbar */
+
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar start here  */
+.sidebar{
+    position: fixed;
+    background: #5e5f4e;
+    width: 250px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.sidebar h2{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #b45672;
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+.sidebar ul li {
+    margin: 25px 0;
+}
+
+.sidebar ul li a{
+    color: #ffffff;
+    padding: 0 30px;
+
+}
+.sidebar ul li a:hover{
+    color: #000000;
+    margin-left: 20px;
+    transition: 0.4s;
+}
+
+/* Sidebar end Here  */
+
+/* Main Content Section Start Here  */
+
+.main{
+    margin-left: 200px;
+    padding: 5px;
+}
+
+.main h2{
+    margin-top: 20px;
+}
+
+/*user table page*/
+.hed
+{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
